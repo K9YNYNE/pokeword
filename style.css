@@ -21,3 +21,15 @@
     height: 130px;
     padding-left: 10px;
 }
+.header button{
+height:50px ;
+width: 70px;
+background-color: #585858;
+border: solid 1px ;
+border-radius: 5px;
+}
+.navbar{
+    height: 60%;
+    width: 50%;
+    
+}
