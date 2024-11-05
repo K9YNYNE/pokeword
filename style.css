@@ -4,45 +4,45 @@
 }
 .header{
     height: 13vh;
-    background-color: aqua;
+    background-color: red;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.content{
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(63, 63, 63);
+.header img{
+    height: 90px;
+    padding-left: 10px;
 }
 .logoheader{
     position: absolute;
     left: 50px;
-}
-.navbar div{
-    height:70px ;
-    width: 125px;
-    background-color: #585858;
-    border: solid 1px ;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
 }
 .navbar{
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
+.navbar div{
+    height: 70px;   
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar div a{
+    font-size: 1.8em;
+    text-decoration: underline;
+    color: #fff;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(256, 256, 256);
+}
 .footer{
     height: 10vh;
     background-color: aqua;
     width: 100%;
-}
-.header img{
-    height: 90px;
-    padding-left: 10px;
 }
